@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id = "body">
+</body>
+<script>
+color='red'
+setInterval(function(){
+if(color == 'red'){
+    color = 'green'
+    document.getElementById("body").style.backgroundColor = color
+}else if(color == 'green'){
+    color = 'white'
+    document.getElementById("body").style.backgroundColor = color
+} 
+else if(color == 'white'){
+    color = 'blue'
+    document.getElementById("body").style.backgroundColor = color } },1000)
+</script>
+</html>
